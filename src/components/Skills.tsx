@@ -215,7 +215,8 @@ const Skills = () => {
             <div className="w-16 h-0.5 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full mx-auto"></div>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
             {devopsSkills.map((skill, index) => (
               <SkillCard key={skill.name} skill={skill} index={index} category="devops" />
             ))}

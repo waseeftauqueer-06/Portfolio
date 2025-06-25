@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 
 const Skills = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const [hoveredSkill, setHoveredSkill] = useState<number | null>(null);
   const sectionRef = useRef<HTMLElement>(null);
 
